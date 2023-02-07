@@ -303,7 +303,9 @@ header nav ul {
     nav li {
         padding-left: 0rem;
       }
-    
+    .main-content {
+        margin-right: 0;
+    }
       .button-container {
         display: flex;
         flex-direction: column;
