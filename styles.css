@@ -156,7 +156,7 @@ header nav ul {
 }
 
 main {
-    width: 110%;
+    min-width: 25rem;
 }
 /* Stories Section */
 
