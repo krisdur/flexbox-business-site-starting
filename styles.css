@@ -145,6 +145,7 @@ header nav ul {
     display: flex;
     flex-direction: column;
     line-height: 2;
+    padding: 0 1rem;
 }
 
 .hero ul li {
