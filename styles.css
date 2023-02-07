@@ -67,7 +67,8 @@ button:hover {
 header {
     position: fixed;
     width: 100%;
-    height: 4rem;
+    top: 0;
+    left: 0;
     box-shadow: 0 -0.2rem 1rem var(--clr-primary);
     background-color: var(--clr-backround);
     z-index: 10;
@@ -77,38 +78,29 @@ header .container {
     display: flex;
     justify-content: flex-end;
     margin-right: 1rem;
+    padding-right: 2rem;
     align-items: center;
 }
 
-header .container a {
+header .container a:first-child {
     margin-left: 1rem;
     margin-right: auto;
 }
 
 header .logo {
-    flex: 1;
     height: 2rem;
     padding: 1rem 0;
 }
 
-header nav {
-    margin-left: 0;
-}
 
 header nav ul {
     display: flex;
   }
 
-  nav li {
-    padding-left: 2rem;
-  }
-  
   nav a {
     vertical-align: bottom;
-    line-height: 1.6;
     font-size: 1rem;
     color: var(--clr-primary);
-    
   }
 
  .login {
@@ -124,10 +116,11 @@ header nav ul {
     background-blend-mode: multiply;
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 30rem;
+    background-size: cover;   
     justify-content: center;
-    padding-top: 6rem;
+    padding-top: 5.5rem;
+    padding: 5.5rem 0 0 0 0;
+    margin: 0 auto;
 }
 
 .hero h1 {
@@ -162,6 +155,9 @@ header nav ul {
     margin-left: 1.25rem;
 }
 
+main {
+    width: 110%;
+}
 /* Stories Section */
 
 .stories {
@@ -169,6 +165,7 @@ header nav ul {
     flex-direction: column;
     background-color: var(--clr-backround);
     color: var(--clr-primary);
+    margin: 0 auto;
 }
 
 .stories h2 {
@@ -252,7 +249,6 @@ header nav ul {
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--clr-primary);
-    height: 15rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -301,12 +297,8 @@ header nav ul {
         font-size: 1.8rem;
     }
    
-    nav li {
-        padding-left: 0rem;
-      }
-    .main-content {
-        margin-right: 0;
-    }
+   
+
       .button-container {
         display: flex;
         flex-direction: column;
@@ -332,6 +324,17 @@ header nav ul {
         margin-bottom: 1rem;
     }
 
-    
-  
+
+    header .container a:first-child {
+        margin-left: 0.5rem;
+        margin-right: auto;
+    }
+
+    nav li a{
+        padding-right: 0rem;
+      }
+
+      nav li a {
+        font-size: 0.8rem;
+      }
 }
