@@ -133,7 +133,7 @@ header nav ul {
     color: var(--clr-primary);
     line-height: 1.5;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin: 0 1rem 2rem;
     font-family: 'Roboto Condensed', Sans-Serif;
 }
 
@@ -175,10 +175,12 @@ header nav ul {
     font-family: 'Roboto Condensed', Sans-Serif;
     font-weight: 700;
     padding: 1.5rem 0;
+    margin: 0 1rem;
 }
 
 .stories p {
     font-size: 1rem;
+    margin: 0 1rem;
 }
 
 .images-containers div {
@@ -197,6 +199,7 @@ header nav ul {
     font-family: 'Roboto Condensed',sans-serif;
     font-weight: 700;
     padding-bottom: 1rem;
+    margin: 0 1rem;
 }
 
 .story {
@@ -221,6 +224,7 @@ header nav ul {
     font-weight: 700;
     padding-bottom: 1rem;
     color: var(--clr-primary);
+    margin: 0 1rem;
 }
 .members {
     display: flex;
@@ -262,13 +266,15 @@ header nav ul {
     font-size: 2rem;
     line-height: 1.5;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin: 0 1rem 2rem;
     font-family: 'Roboto Condensed', Sans-Serif;
   }
 
   .contact-us p {
     font-size: 1rem;
     padding-bottom: 1rem;
+    flex-wrap: wrap;
+    margin: 0 1rem;
   }
   /* Footer*/
 
@@ -285,4 +291,5 @@ header nav ul {
   footer p {
     font-size: 0.8rem;
     font-family: 'Roboto Condensed',sans-serif;
+    margin: 1rem;
   }
